@@ -33,7 +33,7 @@ SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo ""
-izinsc="https://raw.githubusercontent.com/BvsshXyz/izin/main/ipvps"
+izinsc="https://raw.githubusercontent.com/sibeesans/izin/main/ipvps"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
@@ -159,7 +159,7 @@ r="\033[1;31m"  #REDTERANG
 a=" ${CYAN}ACCOUNT PREMIUM" 
 echo -e " "
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC${f}           Welcome To Script Premium Bayu Vpn            $NC${z}│$NC"
+echo -e " ${z}│$NC${f}           Welcome To Script Premium Sibee Storeee            $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC$y System OS ${NC}     $Blue=$NC $MODEL${NC}"
@@ -181,7 +181,7 @@ echo -e "           VLESS/WS/GRPC${NC}  $y=$NC $vla$NC" "$a"
 echo -e "           TROJAN/WS/GRPC${NC} $y=$NC $trb${NC}" "$a"
 echo -e "           SHADOW/WS/GRPC${NC} $y=$NC $ssa${NC} $a"
 echo -e "       ───────────────────────────────────────────────${NC}"
-echo -e "                  ${KIRI} ${Blue} BAYU TUNNELING ${NC} ${KANAN}"
+echo -e "                  ${KIRI} ${Blue} INFORMATION ${NC} ${KANAN}"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 echo -e " ${z}│ ${NC}$y SSH$NC : $status_ssh" "        $y NGINX$NC : $status_nginx" "        $y XRAY$NC : $status_xray      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}$y WS-ePRO$NC : $status_ws_epro" "    $y DROPBEAR$NC : $status_dropbear" "     $y HAPROXY$NC : $status_haproxy   $NC${z}│$NC" 
