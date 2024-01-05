@@ -38,8 +38,8 @@ read -p "Ketik Usernamenya : " Pengguna
 
 if getent passwd $Pengguna > /dev/null 2>&1; then
         userdel $Pengguna > /dev/null 2>&1
-        echo -e "Nama $Pengguna Mampus Di delete Babi🧿."
+        echo -e "Nama $Pengguna Di delete Babi🧿."
 else
-        echo -e "Failure: User $Pengguna Namanya Gak ada Goblok !!!."
+        echo -e "Failure: User $Pengguna Namanya Tidak ada !!!."
 fi
 
